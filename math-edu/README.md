@@ -1,4 +1,4 @@
-# Math Academy (Static Demo)
+# Math Shack
 
 A lightweight static math education site with courses → chapters → lessons. Lessons include an embedded video and interactive practice problems. Progress and answers are saved to `localStorage`.
 
