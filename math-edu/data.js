@@ -3,17 +3,17 @@
     {
       id: "algebra-1",
       title: "Algebra I",
-      description: "Master variables, equations, functions, and introductory algebraic reasoning.",
+      description: "Enter the odyssey of high school math by mastering variables, functions, and solving algebraic equations.",
       thumbnail: "assets/algebra.jpg",
       chapters: [
         {
-          id: "linear-equations",
-          title: "Linear Equations",
+          id: "solving-equations-and-inequalities",
+          title: "Solving Equations and Inequalities",
           lessons: [
             {
-              id: "intro-variables",
-              title: "Introduction to Variables",
-              description: "Understand what variables represent and how to work with them.",
+              id: "variables",
+              title: "Variables",
+              description: "Learn about what variables are and what ther use is in math.",
               videoUrl: "https://www.youtube.com/embed/4v7-2h3G0xk",
               problems: [
                 {
@@ -21,16 +21,17 @@
                   type: "mcq",
                   prompt: "Which symbol is commonly used to represent a variable?",
                   choices: ["=", "x", "2", "+"],
-                  correctAnswer: 1,
+                  correctAnswer: 2,
                   explanation: "A letter like x is commonly used to represent a variable."
                 },
                 {
                   id: "p2",
-                  type: "short",
-                  prompt: "If x = 3, what is x + 5?",
-                  correctAnswer: "8",
-                  explanation: "Substitute x with 3, then 3 + 5 = 8."
-                }
+                  type: "mcq",
+                  prompt: "Which symbol is commonly used to represent a variable?",
+                  choices: ["=", "x", "2", "+"],
+                  correctAnswer: 1,
+                  explanation: "A letter like x is commonly used to represent a variable."
+                },
               ]
             },
             {
